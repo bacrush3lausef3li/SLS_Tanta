@@ -1,0 +1,16 @@
+.aboutus .container .box {
+    margin-right: 30px;
+}
+.activites .container .card{
+    width:200px;
+}
+.activites .container .card .img{
+    width: 200px;
+    height:200px;
+}
+.activites .container .card .text{
+    height:365px;
+}
+.activites .container .card .Special{
+    font-size: 11px;
+}
