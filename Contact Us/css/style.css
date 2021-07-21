@@ -1,0 +1,75 @@
+/* Global Rules */
+*{font-family: 'Roboto', sans-serif;}
+a{text-decoration: none; color:#0E2646}
+/* Declare Variables*/
+:root{--main-color:#0E2646; --secondary-color:#F0E483;}
+/* Set the container component*/
+.container{display: flex; justify-content: space-evenly;}
+/*Start Header*/
+header .container img{width:80px;height:80px}
+header .container nav{background-color: var(--main-color)}
+header .container nav ul{margin: 20px 10px; padding:20px 10px;}
+header .container nav ul li, header a{
+    list-style-type: none;
+    display:inline;
+    padding: 20px;
+    margin: 0;
+    background-color:var(--main-color);
+    color: var(--secondary-color) !important;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+header .container nav ul li:hover,header a:hover{
+    background-color: var(--secondary-color);
+    color: var(--main-color) !important;
+   
+}
+
+/*Start Contact Us Section*/
+.contactus{
+    text-align: center;
+    color: var(--main-color);
+}
+.contactus h2{font-size: 36px; font-weight: 300;}
+.contactus .container form input,textarea{
+    display:block;
+    width:600px;
+    height:50px;
+    margin-bottom: 10px;
+    background-color:var(--secondary-color);
+    outline: 0;
+    border: 0;
+}
+.contactus .container form textarea{
+    height:200px
+}
+.contactus .container form input[type="submit"]{
+    background-color: var(--main-color);
+    color: var(--secondary-color)
+}
+/*End Contact Us Section*/
+/*Start Footer*/
+footer{
+    background-color: var(--main-color);
+    color: var(--secondary-color);
+}
+footer .container{
+    padding: 50px 0;
+}
+footer .container a{
+    text-decoration: none;
+    color: var(--secondary-color)
+}
+/*End Footer*/
+/*Start Copyright*/
+.copyright{
+    text-align: center;
+    background-color: #8F8E85;
+    color:white;
+    margin:0;
+    padding:10px
+}
+/*End Copyright*/
+
+
